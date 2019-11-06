@@ -5,4 +5,10 @@ public class ContaPoupanca extends Conta {
 	public String getTipo() {
 		return "Conta Poupança";
 	}
+	
+	@Override
+	public String toString() {
+		
+		return this.getTitular() + "-" +"Ag"+ this.getAgencia()+"/"+"Nº"+this.getNumero(); 
+	}
 }

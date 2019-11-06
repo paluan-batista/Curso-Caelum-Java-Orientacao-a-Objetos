@@ -14,6 +14,6 @@ public class ContaCorrente extends Conta{
 	@Override
 	public String toString() {
 		
-		return this.getTitular() + this.getNumero(); 
+		return this.getTitular() + "-" +"Ag"+ this.getAgencia()+"/"+"Nº"+this.getNumero(); 
 	}
 }
